@@ -1,0 +1,13 @@
+.alert-none{
+    display: none;
+}
+
+.sub-main{
+    display: none;
+}
+.alert-main{
+    height: 100vh;
+}
+.onLogin{
+    background-color: red;
+}

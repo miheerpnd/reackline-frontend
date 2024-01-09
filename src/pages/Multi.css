@@ -1,0 +1,34 @@
+.multicard {
+  width: 50%;
+  height: 130px;
+  border-radius: 8px;
+  margin-top: 20px;
+  border: 1px solid #7e97a7;
+  padding: 8px;
+  margin-top: 130px;
+  background-color: white;
+}
+.multicard h3 {
+  text-align: center;
+  color: #7e97a7;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.multicard h5 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.multicard {
+  margin-top: 150px;
+  margin-left: 320px;
+}
+@media only screen and (max-width: 800px) {
+  .multicard {
+    width: 95%;
+    margin: auto;
+    margin-top: 100px;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 450px) {
+}

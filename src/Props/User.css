@@ -1,0 +1,40 @@
+.user-main-box{
+    width: 100%;
+    height: 100vh;
+    margin-top: 65px;
+    padding-top: 16px;
+}
+.leful  #User_name{
+    background-image: linear-gradient(-180deg,#2e4b5e 0,#243a48 82%);
+    padding: 2px 8px;
+    
+}
+.leful  #User_name a{
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+.User li a{
+    font-size: 13.5px;
+}
+.User li a .downarrow{
+    height: 20px;
+    width: 20px;
+}
+.User li a .downarrow i{
+    font-size: 15px;
+}
+.User li{
+    padding: 8px;
+}
+.mobile-logout-btn button{
+    width: 100%;
+    background-image: linear-gradient(-180deg,#e93522 0,#be2414 100%);
+    border-radius: 0px;
+    padding: 22px;
+    font-size: 100%;
+}
+.mobile-logout-btn{
+    padding: 0px;
+    margin-top: 20px;
+}

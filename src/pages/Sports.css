@@ -1,0 +1,114 @@
+.sport {
+  height: 120px;
+  width: 100%;
+  margin-top: -16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #545454;
+}
+.sports-box {
+  background-color: #14213d;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.sport a {
+  height: 100%;
+  width: 25%;
+  background-color: #14213d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #4b4b4b;
+  border-width: 0 1px 1px 0;
+}
+.endtennis {
+  border-right: none;
+}
+.sports-box img {
+  width: 35px;
+  margin-top: 6px;
+}
+
+.sports-box p {
+  font-size: 18px;
+  margin-top: 3px;
+  text-align: center;
+  line-height: 19px;
+}
+@media only screen and (max-width: 800px) {
+  .sports-box {
+    width: 25%;
+  }
+  .Quick {
+    margin-top: 65px;
+    color: white;
+    background-image: linear-gradient(180deg, #2b4657 15%, #243a48 100%);
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 9px;
+  }
+  .sportp {
+    margin-top: 0px;
+  }
+  .spotrsone {
+    position: relative;
+    top: 0;
+    width: 100%;
+    left: 0;
+    height: auto;
+    margin-top: -1rem;
+  }
+
+  .spotrsone a {
+    font-size: 17px;
+    font-weight: bold;
+    color: #2789ce;
+  }
+  .downarrow {
+    height: 30px;
+    width: 30px;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .downarrow .fa-solid {
+    color: black;
+    font-size: 20px;
+  }
+  .oneplay p {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .Quick {
+    padding: 5px;
+    font-size: 13px;
+  }
+  .sport {
+    height: 75px;
+  }
+  .sports-box img {
+    width: 28px;
+    margin-top: 15px;
+  }
+
+  .sport p {
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .oneplay {
+    margin-top: 15px;
+  }
+  .oneplay p {
+    margin-top: 5px;
+  }
+}

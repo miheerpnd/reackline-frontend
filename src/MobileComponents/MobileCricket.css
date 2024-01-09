@@ -1,0 +1,22 @@
+.mobilesidebar{
+    display: none;
+}
+@media only screen and (max-width: 800px) {
+    .mobilesidebar{
+        display: block;
+    }
+    .mobilesidebar{
+        width: 100%;
+        left: 0;
+        position: sticky;
+        height: auto;
+        margin-top: -15px;
+    }
+    .mobCriul a{
+        font-size: 15px;
+        font-weight: bold;
+        color: #2789ce;
+    }
+    
+
+}

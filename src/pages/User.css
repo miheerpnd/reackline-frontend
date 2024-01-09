@@ -1,0 +1,151 @@
+.close {
+  width: 33%;
+  background-color: #16acab;
+  margin: auto;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  padding: 15px;
+  border: 1px solid rgb(172, 172, 172);
+  z-index: 99;
+  visibility: hidden;
+  transition: 0.1s;
+  margin-top: 50px;
+}
+.alert-main {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(255, 0, 0, 0.308);
+  position: absolute;
+  margin: auto;
+  z-index: 999999;
+  top: 0;
+  visibility: hidden;
+  transition: 0.4s;
+}
+.new1 {
+  visibility: visible;
+  margin-top: 150px;
+}
+
+.close h3 {
+  font-size: 18px;
+  padding-top: 30px;
+}
+.close h4 {
+  font-size: 15px;
+  line-height: 20px;
+}
+.fa-xmark {
+  float: right;
+  font-size: 25px;
+  color: #0b5655;
+  cursor: pointer;
+}
+.close h5 {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.form-btns button {
+  padding: 3px;
+  border: 1px solid white;
+  width: 35%;
+  margin: 5px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.Exit {
+  background-color: transparent;
+  color: white;
+}
+.Login {
+  width: 100%;
+  background-color: #121212;
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  padding: 10px;
+  visibility: hidden;
+}
+.onLogin {
+  width: 35%;
+  background-color: #121212;
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  padding: 10px;
+  margin-right: 100px;
+  border-radius: 5px;
+}
+.Close-icon {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(18, 7, 7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  border-radius: 50px;
+}
+.Close-icon i {
+  color: rgb(248, 248, 0);
+  font-size: 16px;
+}
+.form-box {
+  width: 90%;
+  padding-bottom: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  padding: 100px;
+  margin-left: 20px;
+}
+.form-box img {
+  width: 230px;
+  padding-bottom: 100px;
+  display: none;
+}
+.form-box input {
+  padding: 4px 7px;
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+.form-box button {
+  padding: 5px 11px;
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(-180deg, #2ccdcc 20%, #1ea2a1 91%);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+.login-main-box {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  visibility: hidden;
+  transition: 0.2s;
+  /* margin-top: 130px; */
+}
+.remove {
+  visibility: visible;
+  margin-top: 120px;
+}
+.form-box h3 {
+  color: white;
+  font-size: 23px;
+  margin-right: 8px;
+}

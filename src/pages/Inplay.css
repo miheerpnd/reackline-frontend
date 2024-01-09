@@ -1,0 +1,168 @@
+.btn-box {
+  background-color: #ededed;
+  width: 100%;
+  height: 100vh;
+}
+.inner-box {
+  width: 800px;
+  margin: auto;
+  margin-right: 400px;
+  padding: 15px 12px;
+}
+.inner-btn-box button {
+  width: 33.33%;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 4px 0px;
+}
+.inner-btn-box {
+  width: 50%;
+  border: 1px solid #3b5160;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.btn-one {
+  border: none;
+  border-right: 1px solid #3b5160;
+  color: #3b5160;
+}
+.btn-two {
+  border: none;
+  border-right: 1px solid #3b5160;
+  color: #3b5160;
+}
+.btn-three {
+  border: none;
+  color: #3b5160;
+}
+.btn-box ul {
+  margin-top: 20px;
+  padding: 0px;
+}
+.btn-box li {
+  list-style: none;
+  width: 100%;
+  background-image: linear-gradient(180deg, #2b4657 15%, #243a48 100%);
+  margin: 12px 0px;
+  font-weight: bolder;
+  font-size: 16px;
+  color: white;
+  padding: 3px 8px;
+  cursor: pointer;
+}
+.dropdownul h4 {
+  margin: 0px;
+  margin-top: -12px;
+  width: 100%;
+  text-align: end;
+  letter-spacing: 45px;
+  padding-right: 50px;
+  font-weight: bold;
+  font-size: 12px;
+  height: 6px;
+  margin-bottom: 10px;
+}
+.dropdownul .innerlink2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-bottom: 1px solid rgb(218, 217, 217);
+}
+.innerlink2:hover {
+  background-color: #ececec;
+}
+.innerlink p {
+  margin-top: 20px;
+  margin-left: 10px;
+  font-weight: 500;
+  color: gray;
+  font-size: 12px;
+}
+.fname {
+  display: flex;
+  gap: 5px;
+}
+.innerlink a {
+  color: #1272b6;
+  font-size: 13px;
+  font-weight: 700;
+}
+.innerlink span {
+  color: #508d0e;
+  margin-left: 10px;
+  font-size: 13px;
+  font-weight: 700;
+}
+.cont p {
+  font-weight: 700;
+}
+.onsub {
+  display: none;
+}
+.inner-btn-box .active {
+  background-image: linear-gradient(180deg, #2b4657 15%, #243a48 100%);
+  height: 100%;
+  border: none;
+  padding: 10px 0px;
+}
+.inner-btn-box button {
+  background-color: transparent;
+  padding: 0px;
+  height: 30px;
+}
+.inner-btn-box .active button {
+  color: white;
+}
+.inplay-box {
+  margin-left: 313px;
+  width: 50%;
+}
+.btn-box {
+  width: 55%;
+  margin-left: 313px;
+}
+.innerlink2 {
+  justify-content: space-between;
+}
+.inner-box {
+  width: 100%;
+}
+.inplay-rightbar {
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid rgb(206, 206, 206);
+  width: 380px;
+  height: 100vh;
+  position: fixed;
+  overflow: hidden;
+  display: flex;
+  align-items: start;
+}
+.inplay-outer-box {
+  width: 380px;
+  overflow: hidden;
+  padding-right: 20px;
+}
+.inplay-rightbar h5 {
+  width: 100%;
+  background-color: #273f4e;
+  color: white;
+  font-size: 14px;
+  padding: 7px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .btn-box {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .inplay-outer-box {
+    display: none;
+  }
+  .dropdownul li{
+    text-align: center;
+  }
+}

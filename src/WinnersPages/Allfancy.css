@@ -1,0 +1,155 @@
+.Allfancy {
+  border-top: 0px;
+  margin-bottom: 5px;
+}
+.Allfancy li .All-fancy-p {
+  background-color: rgba(255, 0, 0, 0);
+  color: black;
+  font-size: 12px;
+  text-align: center;
+}
+.Allfan1 button:nth-child(1) {
+  border-radius: 0px;
+  padding: 0px 33.5px;
+  background-color: #faa9ba;
+}
+
+.Allfancy button:nth-child(2) {
+  background-color: #faa9ba;
+}
+.Allfan1 button:nth-child(2) {
+  border-radius: 0px;
+  background-color: #72bbef;
+  border-right: 1px solid #72bbef;
+  margin-right: -4px;
+}
+.Allfancy p:last-child {
+  background-color: rgba(255, 0, 0, 0);
+  padding: 3px 47.4px;
+  color: black;
+  font-size: 12px;
+  width: 160px;
+}
+.Allfancy .book-btn-box button {
+  background-image: linear-gradient(180deg, #2a3a42 15%, #1c282d 100%);
+  color: white;
+  padding: 5px 10px;
+  height: auto;
+  margin-right: 1px;
+  border-radius: 4px;
+}
+.Allfancy .book-btn-box .book-btn{
+  width: 50px;
+}
+.Allfancy .arrow-num {
+  color: red;
+  font-weight: bold;
+  font-size: 12.5px;
+  display: flex;
+  align-items: center;
+  margin-top: -4px;
+  gap: 5px;
+}
+.inner-num {
+  height: 46px;
+  display: flex;
+}
+#all_btn {
+  display: none;
+}
+#all_btn3 {
+  display: none;
+}
+.Allfancy .book-btn-box img{
+  display: none;
+}
+.info-box{
+  display: none;
+}
+@media only screen and (max-width: 800px) {
+.fancy-p{
+  display: none;
+}
+.mix2 .fancy-btn1{
+  background-color: red;
+  display: flex;
+}
+.fanAll button:nth-child(2){
+    display: flex;
+}
+.fanAll button:nth-child(1){
+  display: flex;
+}
+.fanAll button:nth-child(3){
+  display: flex;
+  margin-right: -4px;
+}
+.Allfancy .book-btn-box .book-btn{
+  display: none;
+}
+.book-btn-box{
+  position: relative;
+}
+.info-box{
+  color: #1e1e1e;
+  right: 0;
+  border-radius: 0.5997vmax;
+  position: absolute;
+  /* top: 0; */
+  align-items: flex-start;
+  z-index: 9;
+  background: #fff;
+  font-weight: 400;
+  box-shadow: 0 6px 10px rgba(0,0,0,.7);
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  align-items: center;
+  padding-left: 30px;
+  margin-top: -30px;
+  height: 35px;
+}
+.info-box .info-text p{
+
+    text-align: center;
+    font-weight: bold;
+    color: #577c94;
+    font-size: 10px;
+    margin-bottom: 0px;
+    margin-top: 6px;
+}
+.info-text{
+  text-align:center;
+}
+.info-text h5{
+  padding-bottom: 0;
+    line-height: 3.09895vmax;
+    margin: 0;
+    font-size: 11px;
+    margin-top: -6px;
+    font-weight: bold;
+    color: black;
+}
+.Allfancy .book-btn-box img{
+  width: 22px;
+  margin-right: 5px;
+  display: block;
+  cursor: pointer;
+}
+.info-box i{
+  padding: 3px 10px;
+  border-left: 1px solid rgb(186, 186, 186);
+  cursor: pointer;
+  font-size: 10px;
+  padding-bottom: 20px;
+}
+
+
+.info-box{
+  display: none;
+}
+.on_info{
+  display: flex;
+}
+
+}

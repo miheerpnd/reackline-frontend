@@ -1,0 +1,61 @@
+.footer {
+  width: 100%;
+  background-image: linear-gradient(-180deg, #243a48 20%, #172732 91%);
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  display: none;
+  height: 60px;
+}
+.footer-box {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  padding-top: 18px;
+}
+.footer-box img {
+  width: 35%;
+}
+.footer-box h4 {
+  font-size: 13px;
+}
+.trofy {
+  background-image: linear-gradient(-180deg, #243a48 20%, #172732b0 91%);
+  /* margin-top: -15px; */
+  /* border-radius: 100%; */
+  position: relative;
+  padding-bottom: 15px;
+}
+.trofy .active{
+  background-image: linear-gradient(-180deg,#32617f 20%,#1f425800 91%);
+}
+.trofy::before{
+  content: "";
+    position: absolute;
+    top: -4.26667vw;
+    width: 100%;
+    left: 0;
+    height: 4.53333vw;
+    background-image: url(../Img/download.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    pointer-events: none;
+    z-index: -1;
+    display: block;
+}
+
+.footer a {
+  text-decoration: none;
+  width: 27vh;
+}
+a{
+  text-decoration: none;
+}
+.footer .active {
+  background-image: linear-gradient(-180deg,#32617f 20%,#1f4258 91%);
+}

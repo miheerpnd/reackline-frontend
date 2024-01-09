@@ -1,0 +1,16 @@
+.li1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 5px;
+}
+
+.roted{
+    transform: rotate(360deg);
+}
+.subli1{
+    display: none;
+}
+.onli{
+    display: block;
+}

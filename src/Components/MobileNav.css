@@ -1,0 +1,198 @@
+.mobile-serch-box {
+  width: 100%;
+  height: 0vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  z-index: 22;
+  top: 0;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.on-Search {
+  height: 100vh;
+  transition: 0.3s;
+}
+.remove-search {
+  height: 100vh;
+  width: 100%;
+  margin-top: 20px;
+}
+.react-tabs__tab-list {
+  display: flex;
+  width: 64%;
+  justify-content: start;
+  margin-left: 311px;
+  background-color: #16abaa;
+  gap: 0px;
+}
+.mob-hig {
+  display: none;
+}
+.icon-img img {
+  display: none;
+}
+.casino-mob {
+  display: none;
+}
+.nav-box h3 {
+  text-align: center;
+  margin-right: 12px;
+}
+.react-tabs__tab--selected {
+  background-color: #dddcd6;
+  border: none;
+  outline: none;
+  border-radius: 5px 5px 0px 0px;
+  z-index: 1;
+  border: none;
+  outline: none;
+  z-index: 0;
+}
+
+.nav-box {
+  margin: 0px 0px;
+  color: white;
+  margin-left: 0px;
+  cursor: pointer;
+}
+.react-tabs__tab {
+  border-radius: 15px;
+  height: 20px;
+  width: 80px;
+  font-weight: bold;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding-right: 19px;
+}
+
+.react-tabs ul {
+  padding-left: 10px;
+  margin-left: 311px;
+}
+
+@media only screen and (max-width: 800px) {
+  .mobile-search {
+    display: block;
+    width: 100%;
+    padding: 16px 30px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+  }
+  #seacrh-icon {
+    display: block;
+    margin-top: -35px;
+    margin-left: 8px;
+    color: rgb(77, 77, 77);
+  }
+  .mob-hig {
+    display: block;
+  }
+  .react-tabs__tab-list {
+    background-image: linear-gradient(180deg, #264b5e00 15%, #1c282d00 100%);
+    border-radius: 8px 8px 0px 0px;
+    height: auto;
+    width: auto;
+  }
+  .icon-img img {
+    display: block;
+  }
+
+  .react-tabs__tab-list {
+    display: flex;
+    padding-top: 2px;
+    border: none;
+    width: 100%;
+    overflow: scroll;
+    padding-right: 40px;
+    padding-left: 5px;
+    margin-left: 0px;
+    }
+  .react-tabs {
+    background-color: #16abaa;
+    height: 45px;
+    padding-top: 3px;
+  }
+  .search {
+    margin-top: -52px;
+    height: 45px;
+  }
+  .react-tabs__tab--selected {
+    background-color: rgba(90, 89, 89, 0.014);
+    box-shadow: inset 0 1px 3px 0 #333;
+    border: none;
+    outline: none;
+    border-radius: 8px 8px 0px 0px;
+  }
+  .nav-box {
+    color: black;
+    background-color: transparent;
+  }
+  .react-tabs__tab--selected h3 {
+    color: white;
+  }
+  .react-tabs__tab {
+    border: none;
+    outline: none;
+  }
+  .hightlights {
+    margin-top: -8px;
+  }
+  .react-tabs ul {
+    margin-left: 0px;
+    margin-bottom: 7px;
+  }
+  ul .react-tabs__tab--selected {
+    color: black;
+    border-radius: 8px 8px 0px 0px;
+  }
+  .icon-img {
+    display: block;
+  }
+  .search-box .react-tabs{
+    height: 45px;
+    padding-bottom: 0px;
+  }
+  .search-box .react-tabs__tab{
+    padding: 10px 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding: 10px ;
+  }
+
+  .search-box .react-tabs__tab-list{
+    border-radius: 0px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    margin-bottom: 0px;
+    height: 49px;
+    padding-top: -20px;
+  }
+  .search-box .react-tabs__tab-list li{
+    height: 30px;
+    overflow: visible;
+    
+  }
+  .search-box .react-tabs__tab-list li{
+    height: 35px;
+  }
+}
+
+
+.react-tabs__tab {
+  border: none;
+  outline: none;
+  background-color: #25333b;
+  font-size: 13.5px;
+  cursor: pointer;
+}
+
+ul .react-tabs__tab--selected {
+  background-color: #dddcd6;
+  color: black;
+  border-radius: 8px 8px 0px 0px;
+}

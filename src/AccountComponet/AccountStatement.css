@@ -1,0 +1,92 @@
+.Account-main-box1 .date-content-box {
+  width: 22%;
+}
+.Account-main-box1 button {
+  opacity: 0.65;
+  border: 1px solid #20a8d8;
+}
+.Account-main-box1 {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 40px;
+  padding-left: 38px;
+}
+.date-content-box {
+  padding-bottom: 8px;
+  height: auto;
+}
+#cont {
+  padding: 2px 8px;
+  margin: 0px 6px;
+  margin-top: 20px;
+  border-radius: 4px;
+  padding-bottom: -20px;
+}
+.for {
+  margin-left: 20px;
+}
+.account-head {
+  border-bottom: 1.5px solid rgb(99, 99, 99);
+}
+.account-head h5 {
+  border-right: 1px solid #d1d1d2;
+}
+.title {
+  width: 95%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: -20px;
+  padding-right: 2px;
+  padding-left: 2px;
+  margin-bottom: 20px;
+}
+.title h5 {
+  font-size: 13.5px;
+  color: rgb(97, 97, 97);
+  word-spacing: 40px;
+}
+.title h6 {
+  font-size: 13.5px;
+}
+.his-btn {
+  opacity: 0.65;
+  border: 1px solid #20a8d8;
+}
+.history-head .date {
+  width: 50%;
+}
+.history-head .remark {
+  width: 50%;
+}
+.date-time {
+  border-right: 1px solid #d1d1d2;
+}
+.account-head p {
+  font-size: 13.5px;
+  font-weight: bold;
+  color: rgb(62, 62, 62);
+}
+
+@media only screen and (max-width: 800px) {
+  .Account-main-box1 .date-content-box {
+    width: 100%;
+  }
+  .Account-main-box1 {
+    padding: 9px;
+  }
+  .rolling-inner-box {
+    overflow: hidden;
+    overflow-x: scroll;
+  }
+  .title {
+    overflow: scroll;
+    display: block;
+    text-align: center;
+  }
+  .rolling-head h5 {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,8 @@
+.hightlights .active {
+  color: rgb(25, 25, 25);
+  background: #dddcd6;
+  border-radius: 4px;
+}
+.mainlist {
+  margin-left: 310px;
+}
