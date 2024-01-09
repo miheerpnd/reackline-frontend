@@ -1,5 +1,5 @@
 import React from "react";
-import "../Components/Leftbar.css";
+import "../Components/LeftBar.css";
 import { Link } from "react-router-dom";
 import Alert from "./Alert";
 import "../Components/LeftBar.css";

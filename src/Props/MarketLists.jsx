@@ -1,7 +1,7 @@
 import React from "react";
 import Policy_Modal from "../Components/Policy_Modal";
 import Winners from "../WinnersPages/WinnersPages";
-import Boookmark from "../WinnersPages/booksmarks";
+import Boookmark from "../WinnersPages/Booksmarks";
 import Fancy from "../WinnersPages/Fancy";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import vdo from "../Img/vdo.mp4";
@@ -18,11 +18,11 @@ function Marketlist() {
     document.getElementById("live").classList.add("border-b");
   };
   const On_live = () => {
-    document.getElementById("on_live").classList.toggle("on_live")
+    document.getElementById("on_live").classList.toggle("on_live");
   };
-  const reload = ()=>{
-    window.location.reload()
-  }
+  const reload = () => {
+    window.location.reload();
+  };
 
   return (
     <div>

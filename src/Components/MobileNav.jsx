@@ -6,7 +6,7 @@ import iconImg from "../Img/icon.svg";
 import iconImg2 from "../Img/icon2.svg";
 import iconImg3 from "../Img/icon3.svg";
 import casino from "../Img/casino.svg";
-import Soccer from "../Img/Soccer.svg";
+import Soccer from "../Img/soccer.svg";
 import Alert from "./Alert";
 // import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 // import "react-tabs/style/react-tabs.css";
@@ -57,13 +57,13 @@ function MobileNav() {
 
       <Tabs>
         <TabList>
-          <Tab >
+          <Tab>
             <div className="icon-img">
               <img src={iconImg2} alt="" />
             </div>
             Cricket
           </Tab>
-          <Tab >
+          <Tab>
             <div className="icon-img">
               <img src={iconImg3} alt="" />
             </div>
@@ -121,9 +121,9 @@ function MobileNav() {
         </TabPanel>
 
         <TabPanel>
-         <SoccerData/>
-                  {/* --------------CopyRight--------------       */}
-                  <div className="copyright-box">
+          <SoccerData />
+          {/* --------------CopyRight--------------       */}
+          <div className="copyright-box">
             <div className="hrline"></div>
             <div className="copyright">
               <p onClick={Modal1}>
@@ -133,7 +133,6 @@ function MobileNav() {
             </div>
           </div>
         </TabPanel>
-
       </Tabs>
       <Policy_Modal />
     </div>

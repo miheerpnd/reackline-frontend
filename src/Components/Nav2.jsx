@@ -1,15 +1,7 @@
 import React, { useState } from "react";
 import "../Components/Nav2.css";
-import Img1 from "../Img/1.jpg";
-import Img2 from "../Img/2.jpg";
-import iconImg from "../Img/icon.svg";
-import iconImg2 from "../Img/icon2.svg";
-import iconImg3 from "../Img/icon3.svg";
-import casino from "../Img/casino.svg";
-import Soccer from "../Img/Soccer.svg";
 import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
-import Logo from "../Img/logo.png";
 import Alert from "./Alert";
 import loder from "../Img/loder.png";
 
@@ -107,12 +99,12 @@ function Nav2() {
     document.getElementById("mobile").classList.add("of_menu");
   }
 
-  const Expo =()=>{
-    document.getElementById("expouser").classList.add("expo_show")
-  }
-  const Expo_hide =()=>{
-    document.getElementById("expouser").classList.remove("expo_show")
-  }
+  const Expo = () => {
+    document.getElementById("expouser").classList.add("expo_show");
+  };
+  const Expo_hide = () => {
+    document.getElementById("expouser").classList.remove("expo_show");
+  };
   return (
     <div>
       <div className={animatin}>
@@ -480,14 +472,14 @@ function Nav2() {
       {/* -------mobile-menu end-------- */}
       <div className="exposer-box2" id="expouser">
         <span>
-        <h1>Expouser Details</h1>
-        <i class="fa-solid fa-xmark" onClick={Expo_hide}></i>
+          <h1>Expouser Details</h1>
+          <i class="fa-solid fa-xmark" onClick={Expo_hide}></i>
         </span>
         <div className="exposer-content">
-            <p>Sport Name</p>
-            <p>Event Name</p>
-            <p>Market Name</p>
-            <p>Trade</p>
+          <p>Sport Name</p>
+          <p>Event Name</p>
+          <p>Market Name</p>
+          <p>Trade</p>
         </div>
       </div>
     </div>
